@@ -1,0 +1,14 @@
+package ch02;
+
+public class changebword {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String word = "abcdefgh";
+		word = word.toUpperCase();
+		System.out.println(word);
+		
+		
+
+	}
+
+}

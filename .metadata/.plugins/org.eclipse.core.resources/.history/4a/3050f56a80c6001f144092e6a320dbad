@@ -1,0 +1,27 @@
+package ch02;
+
+import java.util.Scanner;
+
+public class SccannerEx {
+
+	public static void main(String[] args) {
+	      // TODO Auto-generated method stub
+		    Scanner sc = new Scanner(System.in); 
+			String name=sc.next(kim);
+			String city=sc.next(seoul);
+			int age=sc.nextInt(20);
+			double weight=sc.nextDouble(65.1);
+			boolean single=sc.nextBoolean(true);
+			
+			System.out.println(name);
+			System.out.println(city);
+			System.out.println(age);
+			System.out.println(weight);
+			System.out.println(single);
+		}
+	    
+	    
+
+	}
+
+
